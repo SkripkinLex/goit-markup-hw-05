@@ -753,8 +753,10 @@ a {
     fill: transparent;
 } 
 
-.icon_check {
-
+.input_checkbox:checked + .user_privacy .checkbox_container {
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
 }
 
 .user_privacy {
@@ -762,6 +764,7 @@ a {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
+    
 }
 
 .send_btn {
