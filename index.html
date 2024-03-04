@@ -408,7 +408,7 @@
                                 class="form_input"
                                 type="text"
                                 id="user-name"
-                                name="user_name"
+                                name="user-name"
                                 placeholder=""
                             />
                             <svg class="input_icon" width="18" height="24">
@@ -447,15 +447,13 @@
                         </div>    
                 </div>
                 <div class="form_container_coment">        
-                    <label for="user-comment" class="form_label">Comment</label>
-                        <div class="review_form_input">    
-                            <textarea
-                                class="input_comment"
-                                id="user-comment"
-                                name="user_commen"
-                                placeholder="Text input">
-                            </textarea>  
-                        </div>
+                    <label for="user-comment" class="form_label">Comment</label>  
+                    <textarea
+                        class="input_comment"
+                        id="user-comment"
+                        name="user_commen"
+                        placeholder="Text input">
+                    </textarea>  
                 </div>
                 <div class="form_container_checbox">        
                             <input
@@ -465,9 +463,13 @@
                             value="true"
                             name="user-privacy"
                         />   
-                        <label for="user-privacy">I accept the terms and conditions of the</label>
+                        <label for="user-privacy" class="user_privacy">
+                            <span class="checkbox_container"></span>
+                            I accept the terms and conditions of the
+                            <a class="privacy_policy" href="">Privacy Policy</a>
+                        </label>
                          
-                        <a class="privacy_policy" href="">Privacy Policy</a>
+                        
                     <button class="send_btn" type="submit">Send</button>
                 </div>
             </form>
