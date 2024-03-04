@@ -725,7 +725,7 @@ a {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form_input:focus > .input_icon{
+.form_input:focus + .input_icon{
     fill: #4D5AE5;  
 }
 
