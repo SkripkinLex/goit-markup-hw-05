@@ -573,7 +573,7 @@ a {
     z-index: 9999999;
     width: 100%;
     height: 100%;
-    background-color: rgba(46, 47, 66, 0.50);
+    background-color: rgba(46, 47, 66, 0.4);
     opacity: 0;
     visibility: hidden;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -587,11 +587,12 @@ a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #FFFFFF;
+    background: #fcfcfc;
     width: 408px;
-    height: 584px;
-    border-radius: 5px;
-    
+    min-height: 584px;
+    border-radius: 4px;
+    box-shadow:  0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .modal_hidden {
@@ -725,8 +726,13 @@ a {
     margin-top: 24px;
     margin-left: auto;
     margin-right: auto;
-    
-    
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
+.send_btn:hover, 
+.send_btn:focus {
+    background-color: #404bbf;
+    border: none;
+    
 
 }
