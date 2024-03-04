@@ -486,6 +486,11 @@ a {
     margin-bottom: 16px;
 }
 
+.footer_btn {
+    display: flex;
+    gap: 24px;
+}
+
 .list_icone {
     display: flex;
     gap: 16px;
@@ -528,7 +533,7 @@ a {
 }
 
 .Subscribe_input {
-    border: 1px solid #fff;
+    border: 1px solid #ffffff;
     border-radius: 4px;
     width: 264px;
     height: 40px;
@@ -538,14 +543,19 @@ a {
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
-    color: #fff;
+    color: #ffffff;
+    background-color: transparent;
     margin-right: 24px;
 }
 
 .subscribe_btn {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-family: "Roboto", sans-serif;0
     border-radius: 4px;
     padding: 8px 24px;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     background-color: #4d5ae5;
     border: none;
@@ -554,7 +564,7 @@ a {
     line-height: 1.5;
     letter-spacing: 0.04em;
     text-align: center;
-    color: #fff;
+    color: #ffffff;
 }
 
 .list_icon {
@@ -733,6 +743,6 @@ a {
 .send_btn:focus {
     background-color: #404bbf;
     border: none;
-    
+
 
 }
