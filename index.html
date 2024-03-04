@@ -402,7 +402,7 @@
             <p class="form_title">Leave your contacts and we will call you back</p>
             <form class="">
                 <div class="form_container">
-                    <label class="form_label" for="user_name">Name</label>    
+                    <label for="user_name" class="form_label" >Name</label>    
                         <div class="review_form_input">
                             <input
                                 class="form_input"
@@ -417,12 +417,12 @@
                         </div>
                 </div>
                 <div class="form_container">        
-                    <label class="form_label" for="user_phone">Phone</label>
+                    <label for="user_phone" class="form_label">Phone</label>
                         <div class="review_form_input">
                             <input
                                 class="form_input"
                                 type="tel"
-                                id="user_name"
+                                id="user_phone"
                                 name="user_phone"
                                 placeholder=""
                             />
@@ -432,12 +432,12 @@
                             </div>
                 </div>
                 <div class="form_container">            
-                    <label class="form_label" for="user_email">Email</label>
+                    <label for="user_email" class="form_label">Email</label>
                         <div class="review_form_input">
                             <input
                                 class="form_input"
                                 type="email"
-                                id="user_name"
+                                id="user_email"
                                 name="user_email"
                                 placeholder=""
                             />    
@@ -446,27 +446,28 @@
                             </svg>
                         </div>    
                 </div>
-                <div class="form_container">        
-                    <label class="form_label" for="user_phone">Comment</label>
+                <div class="form_container_coment">        
+                    <label for="user_comment" class="form_label">Comment</label>
                         <div class="review_form_input">    
                             <textarea
                                 class="input_comment"
-                                id="user_name"
+                                id="user_comment"
                                 name="user_commen"
                                 placeholder="Text input">
                             </textarea>  
                         </div>
                 </div>
-                <div class="form_container">        
-                    <label class="container_policy">
+                <div class="form_container_checbox">        
                             <input
-                            class="input_checkbox"
+                            id="user-privacy"
+                            class="input_checkbox  visually-hidden"
                             type="checkbox"
-                            name=""
+                            value="true"
+                            name="user-privacy"
                         />   
-                        I accept the terms and conditions of the 
+                        <label for="user-privacy">I accept the terms and conditions of the</label>
+                         
                         <a class="privacy_policy" href="">Privacy Policy</a>
-                    </label>
                     <button class="send_btn" type="submit">Send</button>
                 </div>
             </form>
