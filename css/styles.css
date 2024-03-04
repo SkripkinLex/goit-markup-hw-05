@@ -753,7 +753,7 @@ a {
     fill: transparent;
 } 
 
-.input_checkbox:checked + .user_privacy .checkbox_container {
+.input_checkbox:checked + .user-privacy .checkbox_container {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
