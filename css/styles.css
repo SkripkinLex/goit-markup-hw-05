@@ -534,6 +534,10 @@ a {
     display: block;
 }
 
+.footer_btn {
+    gap: 24px;
+}
+
 .subscribe_input {
     border: 1px solid #ffffff;
     border-radius: 4px;
@@ -547,7 +551,6 @@ a {
     letter-spacing: 0.04em;
     color: #ffffff;
     background-color: transparent;
-    margin-right: 24px;
     padding-left: 16px;
 }
 
@@ -655,7 +658,6 @@ a {
 
 .form_container {
     margin-bottom: 8px;
-    gap: 24px;
 }
 
 .form_title {
