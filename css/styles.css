@@ -655,6 +655,7 @@ a {
 
 .form_container {
     margin-bottom: 8px;
+    gap: 24px;
 }
 
 .form_title {
